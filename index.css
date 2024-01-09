@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: #ebf2ff !important;
+}
+
+.add__new__bth__mobile__only{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px 10px;
+    background: wheat;
+    width: 100%;
+}
+
+@media (min-width : 768px) {
+    .add__new__bth__mobile__only{
+        display: none;
+    }
+}
+/*.modal-body.label{
+    gap: 10[px;
+}*/
+
+/*.modal-footer .btn .btn-primary :active{
+    cursor: progress;
+    background-color: green;
+}*/
