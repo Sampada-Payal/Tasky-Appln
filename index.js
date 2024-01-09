@@ -48,7 +48,7 @@ var htmlTaskContent = ({ id, title, description, type, url }) => `
             <div class="card-body">
                ${url
         ? `<img width='100%' src=${url} alt='card image cap' class='card-img-top md-3 rounded-lg' />`
-        : `<img width='100%' src="https://tse3.mm.bing.net/th?id=OIP.gfPiEBkEoh2CVhk8yV8HLwAAAA&pid=Api&P=0&h=180" alt='card image cap' class='card-img-top md-3 rounded-lg' />`
+        : `<img width='100%' src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt='card image cap' class='card-img-top md-3 rounded-lg' />`
     }
             <h4 class="card-title">${title}</h4>
             <p class="description trim-3-lines text-muted data-gram_editor='false'">${description}</p>
@@ -72,7 +72,7 @@ var htmlModalContent = ({ id, title, description, url }) => {
   <div id=${id}>
      ${url
             ? `<img width='100%' src=${url} alt='card image cap' class='card-img-top md-3 rounded-lg' />`
-            : `<img width='100%' src="https://www.vhv.rs/dpng/d/412-4129718_notepad-clipart-png-download-notepad-clipart-transparent-png.png" alt='card image cap' class='card-img-top md-3 rounded-lg' />`
+            : `<img width='100%' src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt='card image cap' class='card-img-top md-3 rounded-lg' />`
         }
      <strong class='text-sm text-muted'>Created on ${date.toDateString()}</strong>
      <h2 class='my-3'>${title}</h2>
